@@ -1,4 +1,4 @@
- FROM phusion/baseimage:0.9.15
+FROM phusion/baseimage:0.9.15
 
 RUN apt-get update -y
 RUN apt-get upgrade -y

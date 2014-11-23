@@ -1,5 +1,6 @@
 FROM phusion/baseimage:0.9.15
 
+MAINTAINER Sean Brewer <sbrewer@lib.chattanooga.gov>
 
 RUN apt-get update -y && \
   apt-get upgrade -y && \
@@ -13,7 +14,6 @@ RUN apt-get update -y && \
   mkdir /minecraft/data/logs
 
 VOLUME ['/minecraft/data']
-
 
 ENV HOME /root
 
